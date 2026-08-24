@@ -1,0 +1,1 @@
+System.out.println((int)(Math.round(Math.sqrt(n)));
