@@ -2,7 +2,7 @@
 
 ## 🔗 CodeChef Problem
 
-[Open Problem on CodeChef](https://www.codechef.com/problems/REGCLN?tab=Help)
+[Open Problem on CodeChef](https://www.codechef.com/problems/REGCLN)
 
 ## 📝 Problem Statement
 
@@ -14,43 +14,13 @@ Statement
 Submissions
 Solution
 AI Help
-Review Code with AI
-English
+Switch to AI Tutor Mode
+NEW
+Regular Cleaning
 
-Review my code and provide feedback on how to improve it
-
-
-
-
-My current code:
-
-
-
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		// your code goes here
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		
-
-	}
-}
-
-
-
-Hello! I would be happy to help you with your CodeChef problem.
-
-Observations and Insights:
-Incomplete Code: Your current solution reads the input into the integer variable n, but it does not perform the necessary calculation or print the output.
-Logic Needed: Since Chef cleans the house on multiples of 
+Chef will do a deep cleaning of his house every 
 10
-10 (i.e., 
+10 days - meaning on days numbered 
 10
 ,
 20
@@ -58,60 +28,102 @@ Logic Needed: Since Chef cleans the house on multiples of
 30
 ,
 …
-10,20,30,…), the next cleaning day strictly after day 
-𝑁
-N will be the smallest multiple of 
-10
-10 that is strictly greater than 
+10,20,30,…
+
+Today is day number 
 𝑁
 N.
-Mathematical Approach: Using modular arithmetic, the remainder of 
+How many more days are there until the next day strictly after today that Chef will deep clean?
+
+Input Format
+The only line of input will contain one integer 
 𝑁
-N divided by 
-10
-10 (N % 10) tells us how many days have passed since the last cleaning. Subtracting this remainder from 
-10
-10 (i.e., 10 - (N % 10)) gives us the exact number of days remaining until the next cleaning day.
-Suggestions for Improvement:
-Make sure to compute 10 - (n % 10) and print the result using System.out.println().
-The time complexity of this approach is 
-𝑂
-(
+N, representing the current day number.
+Output Format
+
+Output a single integer: the number of days till the next deep cleaning.
+
+Constraints
 1
-)
-O(1) and space complexity is 
-𝑂
-(
+≤
+𝑁
+≤
+100
+1≤N≤100
+Sample 1:
+Input
+Output
+24
+
+6
+
+Explanation:
+
+Today is day 
+24
+24. The next deep cleaning will be on day 
+30
+30, so the answer is 
+30
+−
+24
+=
+6
+30−24=6.
+
+Sample 2:
+Input
+Output
+30
+
+10
+
+Explanation:
+
+Today is day 
+30
+30. The next deep cleaning after today will be on day 
+40
+40, so the answer is 
+40
+−
+30
+=
+10
+40−30=10.
+
+Note that even though a deep cleaning is done on day 
+30
+30 itself, we want to know the number of days to the next day with cleaning.
+
+Sample 3:
+Input
+Output
+49
+
 1
-)
-O(1), which is extremely optimal.
-Corrected Code:
 
-Here is the complete and corrected Java code for the problem:
+Explanation:
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+Today is day 
+49
+49. The next deep cleaning will be on day 
+50
+50, so the answer is 
+50
+−
+49
+=
+1
+50−49=1.
 
-class Codechef
-{
-    public static void main (String[] args) throws java.lang.Exception
-    {
-        // Read input from the user
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        
-        // Calculate the days remaining until the next cleaning
-        int daysToNextCleaning = 10 - (n % 10);
-        
-        // Output the result
-        System.out.println(daysToNextCleaning);
-    }
-}
-
-
-Keep up the good work, and feel free to ask if you have any questions about this approach!
-
+Did you like the problem statement?
+40 users found this helpful
+More Info
+Time limit1 secs
+Memory limit1.5 GB
+Source Limit50000 Bytes
+Contributors
 Java
 ​
 1
@@ -146,19 +158,19 @@ class Codechef
 Test against Custom Input
 Correct Answer
 Submission ID:
-1348464841
+1348466853
 Sub-Task	Task #	Result
 (time)
 1	0	Correct
 (0.07)
 1	1	Correct
-(0.07)
+(0.08)
 1	2	Correct
 (0.07)
 1	3	Correct
-(0.08)
+(0.07)
 1	4	Correct
-(0.10)
+(0.07)
 1	5	Correct
 (0.07)
 Subtask Score: 100%	Result - Correct
