@@ -1,0 +1,1 @@
+System.out.println(30*(n/2)+20*(n%2);
