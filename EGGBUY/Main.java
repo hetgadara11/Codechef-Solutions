@@ -1,0 +1,1 @@
+System.out.println((y*12)+f);
