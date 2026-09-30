@@ -1,0 +1,1 @@
+if(2*(Math.max(a,Math.max(b,c)))==a+b+c)
