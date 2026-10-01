@@ -1,0 +1,1 @@
+System.out.println(Math.min(b/2,h+c));
