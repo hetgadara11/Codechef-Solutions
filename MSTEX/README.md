@@ -2,7 +2,7 @@
 
 ## 🔗 CodeChef Problem
 
-[Open Problem on CodeChef](https://www.codechef.com/problems/MSTEX?tab=submissions)
+[Open Problem on CodeChef](https://www.codechef.com/problems/MSTEX?tab=statement)
 
 ## 📝 Problem Statement
 
@@ -14,170 +14,147 @@ Statement
 Submissions
 Solution
 AI Help
-Explained Solutions
-ID
-	
-Result
-	
-Lang
-	
-Author
-	
-Popularity
-	
+Go to Top
+Switch to AI Tutor Mode
+NEW
+Most Expensive Items
 
+Chef is given the prices of 
+𝑁
+N items and wants to buy exactly 
+𝐾
+K of them.
 
-1373914272
-	
-	
-JAVA
-	
+Find the maximum possible total price of the 
+𝐾
+K items he can choose.
+
+Input Format
+
+The first line contains an integer 
+𝑇
+T — the number of test cases.
+
+For each test case:
+
+The first line contains two space-separated integers 
+𝑁
+N and 
+𝐾
+K — the number of items and the number of items Chef wants to buy.
+The second line contains 
+𝑁
+N space-separated integers 
+𝐶
 1
-om_mali
-	
-0
-	
-
-
-1373976435
-	
-	
-JAVA
-	
+,
+𝐶
+2
+,
+…
+,
+𝐶
+𝑁
+C
 1
-odd_rainbow_37
-	
-0
-	
+	​
 
+,C
+2
+	​
 
-1374487096
-	
-	
-JAVA
-	
+,…,C
+N
+	​
+
+ — the prices of the items.
+Output Format
+
+For each test case, print a single integer — the total cost of the 
+𝐾
+K most expensive items.
+
+Constraints
 1
-arova
-	
-0
-	
+≤
+𝑇
+≤
+100
+1≤T≤100
+1
+≤
+𝐾
+≤
+𝑁
+≤
+100
+1≤K≤N≤100
+1
+≤
+𝐶
+𝑖
+≤
+100
+1≤C
+i
+	​
 
+≤100
+Sample 1:
+Input
+Output
+3
+5 2
+4 9 1 7 6
+4 3
+10 3 8 5
+6 1
+2 11 4 9 7 5
+16
+23
+11
+Explanation:
 
-1373869244
-	
-	
-PYTH 3
-	
-4
-vu_251fa04915
-	
-0
-	
+For the first test case, the two highest prices are 
+9
+9 and 
+7
+7.
 
+9
++
+7
+=
+16
+9+7=16
 
-1373877484
-	
-	
-C++
-	
-4
-rag_ring_78
-	
-0
-	
-Others' Submissions
+For the second test case, the three highest prices are 
+10
+10, 
+8
+8, and 
+5
+5.
 
-You can view submissions of all participants here
+10
++
+8
++
+5
+=
+23
+10+8+5=23
 
-View all submissions
-My Submissions
-ID
-	
-Result
-	
-Time
-	
-Mem
-	
-Lang
-	
-Date
-	
-Edit
-	
+For the third test case, Chef buys only the most expensive item, which costs 
+11
+11.
 
-
-1374583603
-	
-	
-0.26s
-	
-51M
-	
-JAVA
-	
-12 seconds ago
-	
-	
-
-
-1374583397
-	
-	
-0.00s
-	
-0M
-	
-JAVA
-	
-34 seconds ago
-	
-	
-
-
-1374581653
-	
-	
-0.18s
-	
-50M
-	
-JAVA
-	
-4 minutes ago
-	
-	
-
-
-1374581424
-	
-	
-0.00s
-	
-0M
-	
-JAVA
-	
-4 minutes ago
-	
-	
-
-
-1374581235
-	
-	
-0.00s
-	
-0M
-	
-JAVA
-	
-4 minutes ago
-	
-	
-
-1-5 of 5
-
+Did you like the problem statement?
+5 users found this helpful
+More Info
+Time limit1 secs
+Memory limit1.5 GB
+Source Limit50000 Bytes
 Java
 ​
 10
