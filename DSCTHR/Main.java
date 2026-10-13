@@ -1,0 +1,1 @@
+System.out.println(Math.max(a,Math.max(b,c)));
